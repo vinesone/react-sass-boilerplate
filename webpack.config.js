@@ -9,6 +9,9 @@ const htmlPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
+
+  mode: 'development',
+
   entry: {
     bundle: './index.js'
   },
