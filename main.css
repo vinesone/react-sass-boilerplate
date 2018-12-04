@@ -1,0 +1,14 @@
+body {
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button__component {
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  cursor: pointer;
+}
