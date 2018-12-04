@@ -39,7 +39,7 @@ module.exports = {
     publicPath: '/dist/',
   },
 
-  devtool: 'cheap-module-source-map',
+  devtool: 'eval-source-map', //'cheap-module-source-map',
 
   plugins: [htmlPlugin]
 };
